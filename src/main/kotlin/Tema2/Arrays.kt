@@ -15,4 +15,11 @@ fun main() {
     println(lista.contentToString())
     println("El máximo es $max")
     println("El mínimo es $min")
+
+    var a = 10
+    var b = 5
+    println(sumar(a, b))
+
 }
+
+fun sumar (a : Int, b: Int) : Int = a+b
